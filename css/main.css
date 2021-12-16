@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans', 'Red Hat Display' sans-serif;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.for-bakcround{
+    background-color: #163A24;
+}
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+    margin-bottom: 20px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+    height: 27;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.list-item{
+    
+}
+.login{
+    margin-left: 239px;
+    margin-right: 24px;
+}
+.list-link{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FBFAF7;
+}
+.header-btn{
+    width: 141px;
+    height: 52px;
+    border: 2px solid #198C36;
+    background-color: #198C36;
+    border-radius: 30px;
+    padding-top: 9px;
+    
+}
+.get-btn{
+    text-align: center;
+}
+
+.big-div{
+    display: flex;
+}
+.left-div{
+    margin-top: 120px;
+
+}
+.hero-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBFAF7;
+    margin-bottom: 18px;
+}
+.hero-text{
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+}
+.bigger-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.human-title{
+    margin-top: 149px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 27px;
+
+}
+.human-text{
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+.right-block{
+    width: 393px;
+    height: 200px;
+}
+.block{
+    flex-direction: row-reverse;
+    margin-bottom: 114px;
+}
+
+.partner-block{
+    margin-bottom: 120px
+}
+
+.partner-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 66px;
+
+}
+.partner-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.partner-item{
+    
+}
+
+.footer-div{
+    padding-top: 66px;
+    padding-bottom: 120px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.footer-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 74px;
+}
+.footer-text{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+}
+.footer-img{
+    margin-bottom: 28px;
+}

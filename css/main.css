@@ -207,10 +207,10 @@ body{
     padding-top: 180px;
 }
 
-.development-div{
+/* .development-div{
     width: 393px;
     height: 227px;
-}
+} */
 
 .development-title{
     font-family: 'Recoleta';
@@ -219,6 +219,9 @@ body{
     line-height: 54px;
     color: #163A24;
     margin-bottom: 27px;
+    align-items: center;
+    /* width: 700px;
+    height: 108px; */
 }
 .development-text{
     font-size: 18px;
@@ -298,9 +301,12 @@ body{
  /* TIME PORTION */
 
  .time{
+     display: flex;
+     flex-direction: column;
      padding-top: 114px;
      padding-bottom: 124px;
      align-items: center;
+     
  }
  
  .time-title{
@@ -356,7 +362,6 @@ body{
 
 
  .free-call{
-     text-decoration: none;
     width: 244px;
     height: 52px;
     border: 2px solid #198C36;
@@ -410,6 +415,7 @@ body{
     color: #FBFAF7;
     margin-bottom: 18px;
  }
+ 
 
  .start-btn{
      text-decoration: none;
@@ -418,7 +424,7 @@ body{
  }
 
  .start-link{
-    text-decoration: none;
+    /* text-decoration: none; */
     width: 258px;
     height: 52px;
     border: 2px solid #fdaefd;
@@ -437,9 +443,13 @@ body{
  }
 
  .center-block{
+     display: flex;
+     flex-direction: column;
      padding-top: 114px;
      padding-bottom: 124px;
+     align-items: center;
  }
+
 .left-title{
     font-family: 'Recoleta';
     font-weight: 600;
